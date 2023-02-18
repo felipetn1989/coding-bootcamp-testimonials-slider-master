@@ -513,8 +513,60 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
 .hidden {
   display: none;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-\[3\.25rem\] {
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 :root {
@@ -524,6 +576,10 @@ video {
 
 body {
   font-family: "Inter", sans-serif;
+  background: url(../images/pattern-bg.svg) no-repeat;
+  background-size: 88%;
+  background-position-x: 1.25rem;
+  background-position-y: 1.5rem;
 }
 
 .attribution {
