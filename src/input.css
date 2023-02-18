@@ -11,10 +11,18 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: url(../images/pattern-bg.svg) no-repeat;
-  background-size: 88%;
-  background-position-x: 1.25rem;
-  background-position-y: 1.5rem;
+  background-image: url(../images/pattern-bg.svg), url('../images/pattern-curve.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20.5rem, 100%;
+  background-position-x: 50%, 50%;
+  background-position-y: 1.5rem, 105%;
+}
+
+.quote {
+  background: url(../images/pattern-quotes.svg) no-repeat;
+  background-size: 4rem;
+  background-position-x: 50%;
+  background-position-y: 22.75rem;
 }
 
 .attribution {

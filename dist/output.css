@@ -513,8 +513,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-5 {
@@ -565,8 +573,25 @@ video {
   line-height: 1.25rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 :root {
@@ -576,10 +601,18 @@ video {
 
 body {
   font-family: "Inter", sans-serif;
-  background: url(../images/pattern-bg.svg) no-repeat;
-  background-size: 88%;
-  background-position-x: 1.25rem;
-  background-position-y: 1.5rem;
+  background-image: url(../images/pattern-bg.svg), url('../images/pattern-curve.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20.5rem, 100%;
+  background-position-x: 50%, 50%;
+  background-position-y: 1.5rem, 105%;
+}
+
+.quote {
+  background: url(../images/pattern-quotes.svg) no-repeat;
+  background-size: 4rem;
+  background-position-x: 50%;
+  background-position-y: 22.75rem;
 }
 
 .attribution {
