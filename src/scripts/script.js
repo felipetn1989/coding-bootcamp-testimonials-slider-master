@@ -1,6 +1,16 @@
-nextButton.addEventListener("click", changePage);
+let isNextButtonActive = true;
 
-function changePage() {
+function changePage(event) {
+  const clickedButton = event.target;
+
+  if (
+    (isNextButtonActive && clickedButton === previousButton) ||
+    (!isNextButtonActive && clickedButton === nextButton)
+  ) {
+    return;
+  }
+
+  isNextButtonActive = !isNextButtonActive;
   tanyaPage.classList.toggle("flex");
   tanyaPage.classList.toggle("hidden");
   johnPage.classList.toggle("hidden");
@@ -14,3 +24,6 @@ function changePage() {
     : "../images/icon-prev-unav.svg";
   previousButton.classList.toggle("hover:cursor-pointer");
 }
+
+nextButton.addEventListener("click", changePage);
+previousButton.addEventListener("click", changePage);

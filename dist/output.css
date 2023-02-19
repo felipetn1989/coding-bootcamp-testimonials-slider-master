@@ -712,152 +712,16 @@ body {
 }
 
 @media (min-width: 1280px) {
-  .xl\:left-\[59\%\] {
-    left: 59%;
-  }
-
-  .xl\:top-\[39rem\] {
-    top: 39rem;
-  }
-
-  .xl\:left-\[10rem\] {
-    left: 10rem;
-  }
-
-  .xl\:left-\[20rem\] {
-    left: 20rem;
-  }
-
-  .xl\:left-\[40rem\] {
-    left: 40rem;
-  }
-
-  .xl\:left-\[50rem\] {
-    left: 50rem;
-  }
-
-  .xl\:left-\[55rem\] {
-    left: 55rem;
-  }
-
-  .xl\:left-\[56rem\] {
-    left: 56rem;
-  }
-
-  .xl\:left-\[58rem\] {
-    left: 58rem;
-  }
-
-  .xl\:left-\[5rem\] {
-    left: 5rem;
-  }
-
-  .xl\:left-\[51rem\] {
-    left: 51rem;
-  }
-
-  .xl\:left-\[52rem\] {
-    left: 52rem;
-  }
-
-  .xl\:left-\[53rem\] {
-    left: 53rem;
-  }
-
-  .xl\:left-\[52\.75rem\] {
-    left: 52.75rem;
-  }
-
-  .xl\:left-\[53\.0625rem\] {
-    left: 53.0625rem;
-  }
-
-  .xl\:left-\[53\.125rem\] {
-    left: 53.125rem;
-  }
-
-  .xl\:left-\[53\.1875rem\] {
-    left: 53.1875rem;
-  }
-
   .xl\:left-\[unset\] {
     left: unset;
   }
 
-  .xl\:right-4 {
-    right: 1rem;
-  }
-
-  .xl\:right-8 {
-    right: 2rem;
-  }
-
-  .xl\:right-16 {
-    right: 4rem;
-  }
-
-  .xl\:right-3 {
-    right: 0.75rem;
-  }
-
-  .xl\:right-36 {
-    right: 9rem;
-  }
-
-  .xl\:right-48 {
-    right: 12rem;
-  }
-
-  .xl\:right-60 {
-    right: 15rem;
-  }
-
-  .xl\:right-72 {
-    right: 18rem;
-  }
-
-  .xl\:right-80 {
-    right: 20rem;
-  }
-
-  .xl\:right-96 {
-    right: 24rem;
-  }
-
-  .xl\:right-\[25rem\] {
-    right: 25rem;
-  }
-
-  .xl\:right-\[27rem\] {
-    right: 27rem;
-  }
-
-  .xl\:right-\[28rem\] {
-    right: 28rem;
-  }
-
-  .xl\:right-\[29rem\] {
-    right: 29rem;
-  }
-
-  .xl\:right-\[30rem\] {
-    right: 30rem;
-  }
-
-  .xl\:right-\[28\.5rem\] {
-    right: 28.5rem;
-  }
-
-  .xl\:right-\[28\.75rem\] {
-    right: 28.75rem;
-  }
-
-  .xl\:right-\[29\.25rem\] {
-    right: 29.25rem;
-  }
-
   .xl\:right-\[29\.3125rem\] {
     right: 29.3125rem;
+  }
+
+  .xl\:top-\[39rem\] {
+    top: 39rem;
   }
 
   .xl\:-z-10 {
@@ -886,36 +750,6 @@ body {
 
   .xl\:w-\[34rem\] {
     width: 34rem;
-  }
-
-  .xl\:translate-x-\[\] {
-    --tw-translate-x: ;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:translate-x-\[-5\] {
-    --tw-translate-x: -5;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:translate-x-\[-5\%\] {
-    --tw-translate-x: -5%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:translate-x-\[-6\] {
-    --tw-translate-x: -6;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:translate-x-\[-6\%\] {
-    --tw-translate-x: -6%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:translate-x-\[-7\%\] {
-    --tw-translate-x: -7%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .xl\:translate-x-\[-4\%\] {
