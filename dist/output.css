@@ -529,28 +529,12 @@ video {
   top: 17.75rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -577,112 +561,8 @@ video {
   width: 16rem;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.w-60 {
-  width: 15rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-\[15\.5rem\] {
-  width: 15.5rem;
-}
-
-.w-\[15\.25rem\] {
-  width: 15.25rem;
-}
-
-.w-\[15\.5625rem\] {
-  width: 15.5625rem;
-}
-
-.w-\[15\.625rem\] {
-  width: 15.625rem;
-}
-
-.w-\[15\.75rem\] {
-  width: 15.75rem;
-}
-
-.w-\[15\.8125rem\] {
-  width: 15.8125rem;
-}
-
-.w-\[15\.875rem\] {
-  width: 15.875rem;
-}
-
-.w-\[15\.6875rem\] {
-  width: 15.6875rem;
-}
-
-.w-\[16rem\] {
-  width: 16rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-\[21rem\] {
-  width: 21rem;
-}
-
-.w-\[20\.5rem\] {
-  width: 20.5rem;
-}
-
-.w-\[20\.25rem\] {
-  width: 20.25rem;
-}
-
 .w-\[20\.125rem\] {
   width: 20.125rem;
-}
-
-.max-w-7xl {
-  max-width: 80rem;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
 }
 
 .translate-x-\[-50\%\] {
@@ -698,32 +578,12 @@ video {
   align-items: center;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-5 {
   gap: 1.25rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-0 {
-  gap: 0px;
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-full {
@@ -764,6 +624,10 @@ video {
   text-align: center;
 }
 
+.text-\[1\.0625rem\] {
+  font-size: 1.0625rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -772,15 +636,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-\[1\.0625rem\] {
-  font-size: 1.0625rem;
 }
 
 .font-extralight {
@@ -853,56 +708,152 @@ body {
 }
 
 @media (min-width: 1280px) {
-  .xl\:top-\[20rem\] {
-    top: 20rem;
-  }
-
-  .xl\:top-\[40rem\] {
-    top: 40rem;
-  }
-
-  .xl\:top-\[38rem\] {
-    top: 38rem;
+  .xl\:left-\[59\%\] {
+    left: 59%;
   }
 
   .xl\:top-\[39rem\] {
     top: 39rem;
   }
 
-  .xl\:left-8 {
-    left: 2rem;
+  .xl\:left-\[10rem\] {
+    left: 10rem;
   }
 
-  .xl\:left-80 {
+  .xl\:left-\[20rem\] {
     left: 20rem;
   }
 
-  .xl\:left-3 {
-    left: 0.75rem;
+  .xl\:left-\[40rem\] {
+    left: 40rem;
   }
 
-  .xl\:left-3\/4 {
-    left: 75%;
+  .xl\:left-\[50rem\] {
+    left: 50rem;
   }
 
-  .xl\:left-\[60\] {
-    left: 60;
+  .xl\:left-\[55rem\] {
+    left: 55rem;
   }
 
-  .xl\:left-\[60\%\] {
-    left: 60%;
+  .xl\:left-\[56rem\] {
+    left: 56rem;
   }
 
-  .xl\:left-\[61\%\] {
-    left: 61%;
+  .xl\:left-\[58rem\] {
+    left: 58rem;
   }
 
-  .xl\:left-\[58\%\] {
-    left: 58%;
+  .xl\:left-\[5rem\] {
+    left: 5rem;
   }
 
-  .xl\:left-\[59\%\] {
-    left: 59%;
+  .xl\:left-\[51rem\] {
+    left: 51rem;
+  }
+
+  .xl\:left-\[52rem\] {
+    left: 52rem;
+  }
+
+  .xl\:left-\[53rem\] {
+    left: 53rem;
+  }
+
+  .xl\:left-\[52\.75rem\] {
+    left: 52.75rem;
+  }
+
+  .xl\:left-\[53\.0625rem\] {
+    left: 53.0625rem;
+  }
+
+  .xl\:left-\[53\.125rem\] {
+    left: 53.125rem;
+  }
+
+  .xl\:left-\[53\.1875rem\] {
+    left: 53.1875rem;
+  }
+
+  .xl\:left-\[unset\] {
+    left: unset;
+  }
+
+  .xl\:right-4 {
+    right: 1rem;
+  }
+
+  .xl\:right-8 {
+    right: 2rem;
+  }
+
+  .xl\:right-16 {
+    right: 4rem;
+  }
+
+  .xl\:right-3 {
+    right: 0.75rem;
+  }
+
+  .xl\:right-36 {
+    right: 9rem;
+  }
+
+  .xl\:right-48 {
+    right: 12rem;
+  }
+
+  .xl\:right-60 {
+    right: 15rem;
+  }
+
+  .xl\:right-72 {
+    right: 18rem;
+  }
+
+  .xl\:right-80 {
+    right: 20rem;
+  }
+
+  .xl\:right-96 {
+    right: 24rem;
+  }
+
+  .xl\:right-\[25rem\] {
+    right: 25rem;
+  }
+
+  .xl\:right-\[27rem\] {
+    right: 27rem;
+  }
+
+  .xl\:right-\[28rem\] {
+    right: 28rem;
+  }
+
+  .xl\:right-\[29rem\] {
+    right: 29rem;
+  }
+
+  .xl\:right-\[30rem\] {
+    right: 30rem;
+  }
+
+  .xl\:right-\[28\.5rem\] {
+    right: 28.5rem;
+  }
+
+  .xl\:right-\[28\.75rem\] {
+    right: 28.75rem;
+  }
+
+  .xl\:right-\[29\.25rem\] {
+    right: 29.25rem;
+  }
+
+  .xl\:right-\[29\.3125rem\] {
+    right: 29.3125rem;
   }
 
   .xl\:-z-10 {
@@ -917,12 +868,12 @@ body {
     margin-top: 5rem;
   }
 
-  .xl\:mt-24 {
-    margin-top: 6rem;
+  .xl\:w-3 {
+    width: 0.75rem;
   }
 
-  .xl\:grid {
-    display: grid;
+  .xl\:w-3\.5 {
+    width: 0.875rem;
   }
 
   .xl\:w-\[108\%\] {
@@ -933,24 +884,38 @@ body {
     width: 34rem;
   }
 
-  .xl\:w-4 {
-    width: 1rem;
+  .xl\:translate-x-\[\] {
+    --tw-translate-x: ;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .xl\:w-3 {
-    width: 0.75rem;
+  .xl\:translate-x-\[-5\] {
+    --tw-translate-x: -5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .xl\:w-3\.5 {
-    width: 0.875rem;
+  .xl\:translate-x-\[-5\%\] {
+    --tw-translate-x: -5%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .xl\:max-w-\[unset\] {
-    max-width: unset;
+  .xl\:translate-x-\[-6\] {
+    --tw-translate-x: -6;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .xl\:translate-x-\[-1\.3125rem\] {
-    --tw-translate-x: -1.3125rem;
+  .xl\:translate-x-\[-6\%\] {
+    --tw-translate-x: -6%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .xl\:translate-x-\[-7\%\] {
+    --tw-translate-x: -7%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .xl\:translate-x-\[-4\%\] {
+    --tw-translate-x: -4%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -962,59 +927,24 @@ body {
     flex-direction: row-reverse;
   }
 
-  .xl\:gap-2 {
-    gap: 0.5rem;
-  }
-
-  .xl\:gap-8 {
-    gap: 2rem;
-  }
-
   .xl\:gap-10 {
     gap: 2.5rem;
   }
 
-  .xl\:gap-7 {
-    gap: 1.75rem;
-  }
-
-  .xl\:gap-6 {
-    gap: 1.5rem;
-  }
-
-  .xl\:gap-5 {
-    gap: 1.25rem;
+  .xl\:gap-2 {
+    gap: 0.5rem;
   }
 
   .xl\:gap-4 {
     gap: 1rem;
   }
 
-  .xl\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .xl\:gap-1 {
-    gap: 0.25rem;
+  .xl\:gap-8 {
+    gap: 2rem;
   }
 
   .xl\:p-28 {
     padding: 7rem;
-  }
-
-  .xl\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .xl\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .xl\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   .xl\:px-6 {
@@ -1022,19 +952,9 @@ body {
     padding-right: 1.5rem;
   }
 
-  .xl\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .xl\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .xl\:py-\[1\.125re\2c \] {
-    padding-top: 1.125re,;
-    padding-bottom: 1.125re,;
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .xl\:py-\[1\.125rem\] {
@@ -1060,75 +980,11 @@ body {
     font-weight: 100;
   }
 
-  .xl\:leading-5 {
-    line-height: 1.25rem;
-  }
-
   .xl\:leading-\[2\.75rem\] {
     line-height: 2.75rem;
   }
 
-  .xl\:leading-\[2\.5rem\] {
-    line-height: 2.5rem;
-  }
-
-  .xl\:leading-\[2\.5625rem\] {
-    line-height: 2.5625rem;
-  }
-
-  .xl\:leading-\[2\.625rem\] {
-    line-height: 2.625rem;
-  }
-
-  .xl\:leading-\[2\.6875rem\] {
-    line-height: 2.6875rem;
-  }
-
-  .xl\:leading-\[2\.8125rem\] {
-    line-height: 2.8125rem;
-  }
-
-  .xl\:leading-\[3rem\] {
-    line-height: 3rem;
-  }
-
   .xl\:tracking-tighter {
     letter-spacing: -0.05em;
-  }
-
-  .xl\:tracking-widest {
-    letter-spacing: 0.1em;
-  }
-
-  .xl\:tracking-wider {
-    letter-spacing: 0.05em;
-  }
-
-  .xl\:tracking-wide {
-    letter-spacing: 0.025em;
-  }
-
-  .xl\:tracking-normal {
-    letter-spacing: 0em;
-  }
-
-  .xl\:tracking-\[0\] {
-    letter-spacing: 0;
-  }
-
-  .xl\:tracking-\[0\.125rem\] {
-    letter-spacing: 0.125rem;
-  }
-
-  .xl\:tracking-\[0\.0625rem\] {
-    letter-spacing: 0.0625rem;
-  }
-
-  .xl\:tracking-\[0rem\] {
-    letter-spacing: 0rem;
-  }
-
-  .xl\:tracking-\[-0\.0625rem\] {
-    letter-spacing: -0.0625rem;
   }
 }
