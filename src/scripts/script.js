@@ -1,5 +1,4 @@
 nextButton.addEventListener("click", changePage);
-previousButton.addEventListener("click", changePage);
 
 function changePage() {
   tanyaPage.classList.toggle("flex");
