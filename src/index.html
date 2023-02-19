@@ -15,10 +15,10 @@
 
   <main class="relative text-[#202046] xl:p-28">
     <div class="absolute top-[17.75rem] left-2/4 translate-x-[-50%] flex gap-8 bg-white px-3.5 py-4 rounded-full shadow-md xl:top-[39rem] xl:left-[unset] xl:right-[29.3125rem] xl:px-6 xl:py-[1.125rem] xl:gap-10">
-      <img class="w-2.5 xl:w-3.5" src="../images/icon-prev.svg" alt="Previous icon">
-      <img class="w-2.5 xl:w-3.5" src="../images/icon-next.svg" alt="Next icon">
+      <img id="previousButton" class="w-2.5 xl:w-3.5" src="../images/icon-prev-unav.svg" alt="Previous icon">
+      <img id="nextButton" class="w-2.5 xl:w-3.5 hover:cursor-pointer" src="../images/icon-next.svg" alt="Next icon">
     </div>
-    <figure class="quote flex flex-col text-base items-center py-[3.25rem] px-8 xl:flex-row-reverse xl:py-0">
+    <figure id="tanyaPage" class="quote flex flex-col text-base items-center py-[3.25rem] px-8 xl:flex-row-reverse xl:py-0">
       <img class="w-64 xl:w-[34rem] xl:translate-x-[-4%] xl:-z-10" src="../images/image-tanya.jpg" alt="Picture of Tanya Sinclair">
       <div class="mt-20 grid gap-5 xl:gap-8 xl:mt-20 xl:ml-[1.125rem]">
         <blockquote class="text-center font-extralight w-[20.125rem] text-[1.0625rem] xl:text-3xl xl:leading-[2.75rem] xl:text-left xl:font-thin xl:w-[108%]">
@@ -32,7 +32,7 @@
         </figcaption>
       </div>
     </figure>
-    <figure class="quote hidden flex-col text-base items-center py-[3.25rem] px-8 xl:flex-row-reverse xl:py-0">
+    <figure id="johnPage" class="quote hidden flex-col text-base items-center py-[3.25rem] px-8 xl:flex-row-reverse xl:py-0">
       <img class="w-64 xl:w-[34rem] xl:translate-x-[-4%] xl:-z-10" src="../images/image-john.jpg" alt="Picture of John Tarkpor">
       <div class="mt-20 grid xl:gap-4 xl:mt-20 xl:ml-[1.125rem]">
         <blockquote class="text-center font-extralight w-[20.125rem] text-[1.0625rem] xl:text-3xl xl:leading-[2.75rem] xl:text-left xl:font-thin xl:w-[108%]">
@@ -53,4 +53,5 @@
     Coded by <a href="https://github.com/felipetn1989" target="_blank">Felipe Thomé</a>.
   </footer>
 </body>
+<script src="scripts/script.js"></script>
 </html>

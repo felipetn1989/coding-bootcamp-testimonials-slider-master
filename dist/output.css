@@ -707,6 +707,10 @@ body {
   }
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 1280px) {
   .xl\:left-\[59\%\] {
     left: 59%;
